@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>DOM Manipulation</title>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome</h1>
+  </header>
+  
+  <main>
+    <div>
+      <h3>This is a dog</h3>
+      <button onclick="replaceImages()" type="submit">Submit</button>
+      <img src="images/dog.jpg" alt="Puppy sitting in the grass" style="width: 250px;">
+      
+    </div>
+    <div>
+      <h3>This is a cat</h3>
+      <button onclick="replaceImages('images/cat.jpg')" type="submit">Submit</button>
+      <img src="images/cat.jpg" alt="Cat" style="width: 250px;">
+    </div>
+    <div>
+      <h3>This is a snake</h3>
+      <button onclick="replaceImages('images/snake.jpg')" type="submit">Submit</button>
+      <img src="images/snake.jpg" alt="Snake" style="width: 250px;">
+    </div>      
+  </main>
+  <footer>
+    <p>Copy</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

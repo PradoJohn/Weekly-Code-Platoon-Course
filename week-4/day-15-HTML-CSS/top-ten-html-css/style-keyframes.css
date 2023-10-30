@@ -1,0 +1,33 @@
+/* key frames for main css */
+/* slide in left */
+@keyframes slideInLeft {
+  from {
+      transform: translateX(0);
+      opacity: 1;
+  }
+  to {
+      transform: translateX(90%);
+      opacity: 0;
+  }
+}
+/* slide in Right */
+@keyframes slideInRight{
+  from {
+      transform: translateX(80%);
+      
+  }
+  to {
+      transform: translateX(0);
+
+  }
+}
+/* rotate */
+@keyframes rotate {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
