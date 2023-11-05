@@ -1,0 +1,73 @@
+
+body{
+  background-color: #DAFFFB;
+}
+
+footer{
+  margin-top: 60vh;
+}
+
+header{
+  background-color: #176B87;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px -3px #333;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+/* Hover State */
+.nav a {
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px;
+}
+/* Active State (current page) */
+.nav li a:hover {
+  background-color: #04364A;
+  color: antiquewhite;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  
+}
+
+.site-name{
+  color: antiquewhite;
+  font-size: 2rem;
+}
+
+/* contents css */
+main {
+  background-color: #64CCC5;
+  margin: 20px 30px;
+  border-radius: 3px;
+  box-shadow: 5px 5px 10px -3px #333;
+}
+.container {
+  text-align: center;
+  padding: 5px;
+}
+
+#task-list{
+  text-align: start;
+  font-size: 18px;
+}
+.dlt-btn-container {
+  display: flex;
+  margin: 10px;
+}
+.icon {
+  font-size: 20px;
+}

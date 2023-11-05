@@ -1,0 +1,47 @@
+body{
+  text-align: center;
+  background-color: aqua;
+}
+
+#hangman{
+  width: 80%;
+  border: 1px solid black;
+  box-shadow: 10px 10px 5px #440303;
+}
+
+form {
+  margin: 20px;
+}
+
+
+nav {
+  display: flex ;
+  flex-direction: column;
+  
+}
+
+nav ul {
+  display: flex;
+  border: 2px solid black;
+  justify-content: space-evenly;
+  background-color: rgb(2, 71, 71);
+  padding: 10px;
+  border-radius: 50px;
+}
+nav ul li{
+  list-style: none;
+  
+}
+nav ul li a{
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+#btn{
+  display: flex;
+  justify-content: center;
+}
+#btn-container{
+  align-self: center;
+  margin-left: 250px ;
+}
