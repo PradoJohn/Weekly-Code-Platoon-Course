@@ -1,0 +1,138 @@
+body {
+    margin: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+ol li a {
+    text-transform: capitalize;
+}
+
+.main-page-contents {
+    margin: 20px;
+}
+
+.main-page-contents h2 {
+    text-transform: capitalize;
+}
+
+.pokemon-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 264px;
+    height: 400px;
+}
+
+.pokemon-card h3 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.pokemon-card img {
+    width: 220px;
+    height: 220px;
+}
+
+.pokemon-card .moves {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 20px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.pokemon-card button {
+    width: 80%;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 400px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.bg-color-normal {
+    background-color: #A8A878;
+}
+
+.bg-color-fire {
+    background-color: #F08030;
+}
+
+.bg-color-water {
+    background-color: #6890F0;
+}
+
+.bg-color-grass {
+    background-color: #78C850;
+}
+
+.bg-color-electric {
+    background-color: #F8D030;
+}
+
+.bg-color-ice {
+    background-color: #98D8D8;
+}
+
+.bg-color-fighting {
+    background-color: #C03028;
+}
+
+.bg-color-poison {
+    background-color: #A040A0;
+}
+
+.bg-color-ground {
+    background-color: #E0C068;
+}
+
+.bg-color-flying {
+    background-color: #A890F0;
+}
+
+.bg-color-psychic {
+    background-color: #F85888;
+}
+
+.bg-color-bug {
+    background-color: #A8B820;
+}
+
+.bg-color-rock {
+    background-color: #B8A038;
+}
+
+.bg-color-ghost {
+    background-color: #705898;
+}
+
+.bg-color-dragon {
+    background-color: #7038F8;
+}
+
+.bg-color-dark {
+    background-color: #705848;
+}
+
+.bg-color-steel {
+    background-color: #B8B8D0;
+}
+
+.bg-color-fairy {
+    background-color: #F0B6BC;
+}

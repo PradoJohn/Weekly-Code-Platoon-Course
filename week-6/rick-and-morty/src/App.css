@@ -1,0 +1,124 @@
+
+#all{
+  padding: 0;
+}
+
+#home-page{
+  text-align: center;
+  width: 50%;
+  height: 40%;
+  border: 1vmin solid black;
+  border-radius: 5vmin;
+  margin: 15vmin;
+  background-color: gainsboro;
+  box-shadow: 2px 2px 2px 2px darkblue;
+  padding: 10px;
+}
+.row{
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(to right, #fa3c6c, #20c3fa);
+  box-shadow: 4px 4px 10px rgb(1, 1, 32);
+}
+.navbar-brand:hover{
+  background: linear-gradient(to right, #20c3fa, #fa3c6c);
+  border-radius: 10px;
+  padding: 5px;
+}
+.nav-link:hover{
+  background: linear-gradient(to right, #20c3fa, #fa3c6c);
+  border-radius: 10px;
+}
+
+/***Content***/
+
+.row.content{
+  background: linear-gradient(to bottom, #9b95ee, #20c3fa);
+  padding-top: 20px;
+  height: 100%;
+}
+
+h1{
+  text-align: center;
+}
+
+#a-character{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  border: 1vmin solid black;
+  border-radius: 6vmin;
+  margin: 15vmin;
+  background-color: gainsboro;
+  box-shadow: 5px 5px 35px darkblue;
+  width: 60%;
+  height: 40%;
+  padding: 0;
+}
+
+/*****Character Description Page when (Details button is click)******/
+.char-description{
+  list-style: none;
+  margin-top: 10px;
+}
+.char-description h1{
+  text-align: center;
+  font-weight: bolder;
+}
+.char-description li{
+  font-size: larger;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#a-character img{
+  width: 50%;
+  border-radius: 5vmin;
+}
+
+/***Card CSS (CharactersPage ****/
+.card {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  border: 2px solid gray;
+  box-shadow: 3px 3px 10px rgb(12, 12, 80);
+  margin: 10px;
+  transition: transform 0.3s ease; 
+}
+
+.card:hover {
+  transform: translateY(-10px); 
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: gainsboro;
+}
+
+.card-title{
+  font-size: medium;
+}
+.btns{
+  display: flex;
+}
+
+.btn{
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+}
+
+.search-form{
+  max-width: 50%;
+}

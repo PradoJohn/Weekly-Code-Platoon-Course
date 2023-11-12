@@ -1,0 +1,32 @@
+name: GitHub Classroom Workflow
+
+on: [push]
+
+permissions:
+  checks: write
+  actions: read
+  contents: read
+
+jobs:
+  build:
+    name: Autograding
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache-dependency-path: "package-lock.json"
+          cache: "npm"
+      - name: Install build dependencies and run build
+        run: npm install
+      - name: Cypress
+        uses: cypress-io/github-action@v5.8.2
+        with:
+          start: npm run dev
+        continue-on-error: true
+      - name: Autograder
+        uses: education/autograding@v1
+        continue-on-error: true

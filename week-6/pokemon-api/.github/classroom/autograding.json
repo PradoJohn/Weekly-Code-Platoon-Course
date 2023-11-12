@@ -1,0 +1,154 @@
+{
+  "tests": [
+    {
+      "name": "test 0",
+      "setup": "",
+      "run": "npm run cy:run cypress/e2e/0-example-test.cy.jsx",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 4,
+      "points": 0
+    },
+    {
+      "name": "test 1",
+      "setup": "",
+      "run": "npm run cy:run cypress/e2e/01-navbar-structure.cy.jsx",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 4,
+      "points": 1
+    },
+    {
+      "name": "test 2",
+      "setup": "",
+      "run": "npm run cy:run cypress/e2e/02-navbar-links-functionality.cy.jsx",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 4,
+      "points": 1
+    },
+    {
+      "name": "test 3",
+      "setup": "",
+      "run": "npm run cy:run cypress/e2e/03-home-page-structure.cy.jsx",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 4,
+      "points": 1
+    },
+    {
+      "name": "test 4",
+      "setup": "",
+      "run": "npm run cy:run cypress/e2e/04-home-page-links-functionality.cy.jsx",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 4,
+      "points": 1
+    },
+    {
+      "name": "test 5",
+      "setup": "",
+      "run": "npm run cy:run cypress/e2e/05-pokemon-page-structure.cy.jsx",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 4,
+      "points": 1
+    },
+    {
+      "name": "test 6",
+      "setup": "",
+      "run": "npm run cy:run cypress/e2e/06-pokemon-card-background-color.cy.jsx",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 4,
+      "points": 1
+    },
+    {
+      "name": "test 7",
+      "setup": "",
+      "run": "npm run cy:run cypress/e2e/07-empty-team-page-structure.cy.jsx",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 4,
+      "points": 1
+    },
+    {
+      "name": "test 8",
+      "setup": "",
+      "run": "npm run cy:run cypress/e2e/08-can-catch-pokemon.cy.jsx",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 4,
+      "points": 1
+    },
+    {
+      "name": "test 9",
+      "setup": "",
+      "run": "npm run cy:run cypress/e2e/09-cant-catch-dupes.cy.jsx",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 4,
+      "points": 1
+    },
+    {
+      "name": "test 10",
+      "setup": "",
+      "run": "npm run cy:run cypress/e2e/10-cant-catch-more-than-six.cy.jsx",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 4,
+      "points": 1
+    },
+    {
+      "name": "test 11",
+      "setup": "",
+      "run": "npm run cy:run cypress/e2e/11-can-add-then-release-pokemon.cy.jsx",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 4,
+      "points": 1
+    },
+    {
+      "name": "test 12",
+      "setup": "",
+      "run": "npm run cy:run cypress/e2e/12-can-search-for-a-pokemon-by-name-or-id.cy.jsx",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 4,
+      "points": 1
+    },
+    {
+      "name": "test 13",
+      "setup": "",
+      "run": "npm run cy:run cypress/e2e/13-will-go-to-error-page-on-bad-url.cy.jsx",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 4,
+      "points": 1
+    },
+    {
+      "name": "test 14",
+      "setup": "",
+      "run": "npm run cy:run cypress/e2e/14-will-go-to-a-specific-error-page-on-bad-pokemon-name-or-id.cy.jsx",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 4,
+      "points": 1
+    }
+  ]
+}
